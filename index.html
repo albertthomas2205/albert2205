@@ -483,7 +483,7 @@ I am always excited to take on new challenges and projects that allow me to expa
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0">
-
+<!-- 
             <form action="" id="submit-form" >
               <div class="row">
                 <div class="col-md-6 form-group">
@@ -501,11 +501,40 @@ I am always excited to take on new challenges and projects that allow me to expa
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
+                <div class="error-message"></div> -->
                 <!-- <div class="sent-message">Your message has been sent. Thank you!</div> -->
-              </div>
+              <!-- </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+            </form>  -->
+
+            <form action = " " class = "was-validated" id="submit-form">  
+              <div class = "userid">  
+              <label for = "uid" class = "form-label">  Name: </label>  
+              <input type = "text" class = "form-control" id = " uid " placeholder = "Enter user_name"  minlength="3" name = " uid " required>  
+              <div class = "valid-feedback"> Valid data. </div>  
+              <div class = "invalid-feedback"> Please fill the user name. </div>  
+              </div>  
+              <div class = "emailid">  
+              <label for = "emid" class = "form-label"> Email Id: </label>  
+              <input type = "email" class = "form-control" id = " emid " placeholder = "Enter email_id" name = " emid " required>  
+              <div class = "valid-feedback"> Valid data. </div>  
+              <div class = "invalid-feedback"> Please fill the email id. </div>  
+              </div>  
+              <div class = "numberid">  
+              <label for = "numid" class = "form-label"> Mobile Number: </label>  
+              <input type = "number" class = "form-control" id = " numid " placeholder = "Enter Mobile Number" minlength="10" name = "numid" required>  
+              <div class = "valid-feedback"> Valid data. </div>  
+              <div class = "invalid-feedback"> Please fill the mobile number. </div>  
+              </div>  
+              <div class = "txt">  
+              <label for = "txt" class = "form-label"> Message: </label>  
+              <textarea class = "form-control" id = "txt" placeholder = "Enter message" name = "txt" required></textarea>  
+              <div class = "valid-feedback"> Valid data. </div>  
+              <div class = "invalid-feedback"> Please fill the message. </div>  
+              </div>  
+               
+              <button type = "submit" class = "btn btn-info mt-2"> Submit </button>  
+              </form>  
 
           </div>
 
